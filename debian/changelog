@@ -1,3 +1,9 @@
+psmisc (22.15-2ubuntu1.1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 25 Dec 2013 02:28:08 +0000
+
 psmisc (22.15-2ubuntu1.1) precise-proposed; urgency=low
 
   * Backport from 22.16:
