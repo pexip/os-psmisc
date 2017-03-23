@@ -2,14 +2,14 @@ Source: psmisc
 Section: admin
 Priority: optional
 Maintainer: Pexip AS <packaging@pexip.com>
-XSBC-Pexip-Original-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer:  Craig Small <csmall@debian.org>
-Build-Depends: debhelper (>= 9.0.0), libncurses-dev, gettext:any
-Standards-Version: 3.9.2
+XSBC-Pexip-Original-Maintainer:  Craig Small <csmall@debian.org>
+Build-Depends: debhelper (>= 9.0.0), libncurses-dev, gettext
+Standards-Version: 3.9.5
 XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: psmisc
 Architecture: any
+Multi-Arch: foreign
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: procps (<< 1:1.2)
 Description: utilities that use the proc file system

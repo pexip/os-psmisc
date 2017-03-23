@@ -9,7 +9,7 @@ Copyright: 1993-2005 Werner Almesberger
 License: GPL-2+
 
 Files: src/lists.h
-Copyright: 2011 Wener Fink <werner@suse.de>
+Copyright: 2011 Werner Fink <werner@suse.de>
 License: GPL-2+
 
 Files: src/peekfd.c
