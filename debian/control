@@ -3,7 +3,7 @@ Section: admin
 Priority: optional
 Maintainer: Pexip AS <packaging@pexip.com>
 XSBC-Pexip-Original-Maintainer:  Craig Small <csmall@debian.org>
-Build-Depends: debhelper (>= 9.0.0), libncurses-dev, gettext
+Build-Depends: debhelper (>= 9.0.0), libncurses-dev, gettext, libselinux1-dev [linux-any]
 Standards-Version: 3.9.5
 XS-Pexip-Upstream: http://ftp.debian.org/debian/ stretch
 
