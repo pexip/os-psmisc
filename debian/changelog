@@ -1,4 +1,4 @@
-psmisc (22.21-2.1pexip1) pexip; urgency=medium
+psmisc (22.21-2.1+b2pexip1) pexip; urgency=medium
 
   * Migrate to Stretch
 
